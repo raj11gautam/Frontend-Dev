@@ -1,0 +1,66 @@
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: #222;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+header {
+  background-color: #004080;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav {
+  margin-top: 0.5em;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1em;
+}
+
+/* Main Section */
+main {
+  margin-top: 140px;  
+  text-align: center;
+  flex: 1;
+}
+
+main img {
+  width: 150px;       
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 1em;
+}
+
+main p {
+  font-size: 1.1em;   
+  width: 60%;
+  margin: 0 auto;
+}
+
+/* Footer */
+footer {
+  background-color: #004080;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  font-size: 0.9rem;   /* rem */
+}
