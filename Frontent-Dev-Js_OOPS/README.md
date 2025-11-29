@@ -1,2 +1,0 @@
-# Frontent-Dev
-Web Technology
